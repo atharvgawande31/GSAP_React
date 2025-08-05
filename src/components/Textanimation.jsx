@@ -22,7 +22,6 @@ const TextAnimation = () => {
       ease: "power2.out",
       scrollTrigger: {
         trigger: textRef.current,
-        markers:true,
         start: "top 60%", // when the top of the trigger hits 50% of viewport
         toggleActions: "play none none none"
       }
